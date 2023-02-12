@@ -42,11 +42,9 @@ footer{
 }
 
 
-body{
-    font-family: montserrat;
-}
+
 nav{
-    background: #0082e6;
+    background: blue;
     height: 80px;
     width: 100%;
 }
@@ -80,33 +78,27 @@ a.active,a:hover{
     transition: .5s;
 }
 
-.menu {
-    background-color: #ffffff;
-    padding: 8px;
-    margin-top: 7px;
-    display: inline-block;
-    width: 20%;
+.main {
+    background-color: yellow;
+    padding: 30px;
+    margin-top: 20px;
+    display: block;
+    width: 40%;
     color: black;
     text-align: center;
+    float: bottom;
+
 }
 
 
-.Description {
-    float:left;
-    width:60%;
-    padding:0 20px;
+Section{
+    color: green;
+    font-size: large;
 }
 
-.List {
-    background-color:#cc9900;
-    float:right;
-    width:40%;
-    padding:15px;
-    margin-top:7px;
-    text-align:center;
-}
+
 
 body {
-    background-color: #ff66ff;
+    background-color: floralwhite;
 }
 
